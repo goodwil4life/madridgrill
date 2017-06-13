@@ -1,0 +1,27 @@
+/**---------------------
+		  *
+		  * Bordered List
+		  *
+		  *---------------------**/
+		.bordered-list{
+			padding-left: 0;
+			list-style: none;
+		}
+
+		.bordered-list a{
+			color: inherit;
+			display: block;
+			position: relative;
+			padding: 10px 15px 8px 0;
+			border-bottom: 1px solid rgba(0,0,0,.06);
+		}
+
+		.bordered-list a:after{
+			position: absolute;
+			right: 5px;
+			top: 0;
+			font-size: 12px;
+			line-height: 47px;
+			font-weight: 500;
+			content: '+';
+		}

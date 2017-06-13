@@ -1,0 +1,62 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Video</h3>
+					<h5>Special AMP Tag</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed videos into your AMP HTML files. Video source files should be served via HTTPS.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>A simple video with controller. <strong>amp-video</strong> supports the following formats: mp4, webm, ogg together with all the formats supported by the HTML5 video tag including HLS. Boolean attribute (<strong>controls</strong> in this case) must be without values. Expression with value like <strong>controls="controls"</strong> is invalid.</p>
+
+                <div class="space-2"></div>
+
+                <amp-video width=480
+					height=270
+					src="assets/video/sample_video.mp4"
+					poster="http://placehold.it/640x360"
+					layout="responsive"
+					controls>
+					<div fallback>
+						<p>Your browser doesn't support HTML5 video.</p>
+					</div>
+					<source type="video/mp4" src="assets/video/sample_video.mp4">
+					<source type="video/webm" src="assets/video/sample_video.webm">
+				</amp-video>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Autoplay</h4>
+                <p>Setting <strong>autoplay</strong> and <strong>muted</strong> will enable play video as soon as it get loaded in mute mode.</p>
+
+                <div class="space-2"></div>
+
+				<amp-video width=480
+						height=270
+						src="assets/video/sample_video.mp4"
+						poster="http://placehold.it/640x360"
+						layout="responsive"
+						autoplay
+						muted
+						loop>
+					<div fallback>
+						<p>Your browser doesn't support HTML5 video.</p>
+					</div>
+					<source type="video/mp4" src="assets/video/sample_video.mp4">
+					<source type="video/webm" src="assets/video/sample_video.webm">
+				</amp-video>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

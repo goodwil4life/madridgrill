@@ -1,0 +1,60 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Pinterest</h3>
+					<h5>Pinterest Pin Widget</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Here 2 examples below. First one is a local image and second one is the widget.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Pin It Button</h4>
+                <p>Set data-do to buttonPin to enable pinning content on your site. These attributes are required:<br><br>
+                    <ul>
+                        <li><strong>data-url:</strong> the URL to be shared.</li>
+                        <li><strong>data-media</strong> the absolute image URL to be pinned.</li>
+                        <li><strong>data-description:</strong> the default description that appears in the pin create form.</li>
+                    </ul>
+                </p>
+
+                <div class="space-2"></div>
+
+                <figure>
+                    <amp-img    src="http://placehold.it/331x331"
+                                width="250"
+                                height="250"
+                                alt="an image"></amp-img>
+                    <amp-pinterest  height=28
+                                    width=56
+                                    data-do="buttonPin"
+                                    data-url="https://mobius.studio/"
+                                    data-media="https://mobius.studio/themes/tasty/gallery_grid_3_331x331.jpg"
+                                    data-description="amp-pinterest in action">
+                    </amp-pinterest>
+                </figure>
+
+                <div class="space-3"></div>
+
+				<h4 class="margin-0">Embed Pin Widget</h4>
+                <p>To embed the pin widget, set <strong>data-do</strong> to embedPing. The <strong>data-url</strong> attribute must contain the fully-qualified URL of the Pinterest resource.</p>
+
+                <div class="space-2"></div>
+
+                <amp-pinterest  width=237
+                                height=213
+                                data-do="embedPin"
+                                data-url="https://www.pinterest.com/pin/228065168607834583/">
+                </amp-pinterest>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

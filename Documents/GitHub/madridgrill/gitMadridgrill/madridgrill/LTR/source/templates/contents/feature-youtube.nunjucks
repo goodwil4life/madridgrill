@@ -1,0 +1,32 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Youtube</h3>
+					<h5>Youtube Video Player</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed YouTube videos into your AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>Embed YouTube videos via the video id. The id is found in every Youtube video page URL.</p>
+
+                <div class="space-2"></div>
+
+                <amp-youtube    width="480"
+                                height="270"
+                                layout=responsive
+                                data-videoid="lBTCB7yLs8Y"></amp-youtube>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

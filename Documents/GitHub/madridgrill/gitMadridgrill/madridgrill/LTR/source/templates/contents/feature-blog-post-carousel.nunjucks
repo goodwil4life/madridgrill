@@ -1,0 +1,59 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Blog</h3>
+					<h5>Blog Carousel</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Here's a <strong>cool carousel</strong> example with Tasty. AMP is not allowing you to use custom javascript but this doesn't mean you can't create <strong>rich web pages</strong>.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<amp-carousel class="blog-carousel" layout="fixed-height" height=200>
+
+					<a href="blog-detail-sample-post.html" class="blog-carousel-item">
+						<amp-img  src="http://placehold.it/125x220" width=125 height=194></amp-img>
+						<div class="blog-carousel-item-caption">
+							<h5 class="margin-0">Collaboratively Bleeding-Edge</h5>
+							<span><i class="fa fa-bars"></i> World</span>
+						</div>
+					</a>
+					<a href="blog-detail-sample-post.html" class="blog-carousel-item">
+						<amp-img src="http://placehold.it/125x220" width=125 height=194></amp-img>
+
+						<div class="blog-carousel-item-caption">
+							<h5 class="margin-0">Professionally Economically Sound</h5>
+							<span><i class="fa fa-bars"></i> World</span>
+						</div>
+					</a>
+					<a href="blog-detail-sample-post.html" class="blog-carousel-item">
+						<amp-img src="http://placehold.it/125x220" width=125 height=194></amp-img>
+
+						<div class="blog-carousel-item-caption">
+							<h5 class="margin-0">Authoritatively Create Testing</h5>
+							<span><i class="fa fa-bars"></i> Health</span>
+						</div>
+					</a>
+					<a href="blog-detail-sample-post.html" class="blog-carousel-item">
+						<amp-img src="http://placehold.it/125x220" width=125 height=194></amp-img>
+
+						<div class="blog-carousel-item-caption">
+							<h5 class="margin-0">Professionally Predom Emerging</h5>
+							<span><i class="fa fa-bars"></i> Art</span>
+						</div>
+					</a>
+				</amp-carousel><!-- NEWS CAROUSEL ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div>
+
+	{% include "templates/parts/_footer.nunjucks" %}

@@ -1,0 +1,206 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="blog-item clearfix">
+					<a href="blog-detail-sample-post.html" class="preview">
+						<amp-img layout="responsive" src="http://placehold.it/690x388" width=690 height=388></amp-img>
+					</a>
+					<a href="blog-detail-sample-post.html"><h3 class="margin-0">Sample Post</h3></a>
+
+					<div class="subtitle">Posted on <a href="#">10 January 2015</a> in <a href="#">Web Design</a> by <a href="#">Mobius Studio</a></div>
+
+					<div class="space"></div>
+
+					<div class="details">
+						<p>Compellingly incentivize intuitive infomediaries with reliable networks. Interactively incubate inexpensive sources rather than high-payoff networks. Competently cultivate high...</p>
+					</div>
+
+					<div class="space-2"></div>
+
+					<div class="pull-right">
+						<a href="blog-detail-sample-post.html">Go to Post&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+					</div>
+				</div><!-- NEWS-ITEM ENDS -->
+
+				<div class="divider-30 colored"></div>
+
+				<div class="blog-item clearfix">
+					<amp-carousel class="preview" layout="fixed-height" height=194>
+						<amp-img src="http://placehold.it/690x388" width=345 height=194></amp-img>
+						<amp-img src="http://placehold.it/690x388" width=345 height=194></amp-img>
+					</amp-carousel><!-- CAROUSEL ENDS -->
+
+					<a href="blog-detail-carousel-post.html"><h3 class="margin-0">Carousel Post</h3></a>
+
+					<div class="subtitle">Posted on <a href="#">10 January 2015</a> in <a href="#">Web Design</a> by <a href="#">Mobius Studio</a></div>
+
+					<div class="space"></div>
+
+					<div class="details">
+						<p>Compellingly incentivize intuitive infomediaries with reliable networks. Interactively incubate inexpensive sources rather than high-payoff networks. Competently cultivate high...</p>
+					</div>
+
+					<div class="space-2"></div>
+
+					<div class="pull-right">
+						<a href="blog-detail-sample-post.html">Go to Post&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+					</div>
+				</div><!-- NEWS-ITEM ENDS -->
+
+				<div class="divider-30 colored"></div>
+
+				<div class="blog-item clearfix">
+					<amp-youtube
+							class="preview"
+							data-videoid="ZHVJVQzHv5Q"
+							layout="responsive"
+							width="345" height="194"></amp-youtube>
+
+					<a href="blog-detail-video-post.html"><h3 class="margin-0">Video Post</h3></a>
+
+					<div class="subtitle">Posted on <a href="#">10 January 2015</a> in <a href="#">Web Design</a> by <a href="#">Mobius Studio</a></div>
+
+					<div class="space"></div>
+
+					<div class="details">
+						<p>Compellingly incentivize intuitive infomediaries with reliable networks. Interactively incubate inexpensive sources rather than high-payoff networks. Competently cultivate high...</p>
+					</div>
+
+					<div class="space-2"></div>
+
+					<div class="pull-right">
+						<a href="blog-detail-sample-post.html">Go to Post&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+					</div>
+				</div><!-- NEWS-ITEM ENDS -->
+
+				<div class="divider-30 colored"></div>
+
+				<div class="blog-item clearfix">
+					<amp-twitter class="preview"
+					             width="345"
+					             height="194"
+					             layout="responsive"
+					             data-tweetid="682699759069560834">
+					</amp-twitter>
+
+					<a href="blog-detail-sample-post.html"><h3 class="margin-0">Twitter Post</h3></a>
+
+					<div class="subtitle">Posted on <a href="#">10 January 2015</a> in <a href="#">Web Design</a> by <a href="#">Mobius Studio</a></div>
+
+					<div class="space"></div>
+
+					<div class="details">
+						<p>Compellingly incentivize intuitive infomediaries with reliable networks. Interactively incubate inexpensive sources rather than high-payoff networks. Competently cultivate high...</p>
+					</div>
+
+					<div class="space-2"></div>
+
+					<div class="pull-right">
+						<a href="blog-detail-sample-post.html">Go to Post&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+					</div>
+				</div><!-- NEWS-ITEM ENDS -->
+
+				<div class="divider-30 colored"></div>
+
+				<div class="pagination">
+					<a href="blog.html" rel="prev" class="fa fa-angle-left"></a>
+					<a href="blog.html" class="active">1</a>
+					<a href="blog.html">2</a>
+					<a href="blog.html">3</a>
+					<a href="blog.html">4</a>
+					<a href="blog.html" rel="next" class="fa fa-angle-right"></a>
+				</div>
+			</div><!-- COL-SM-9 ENDS -->
+
+			<div class="col-sm-3">
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Widget Sidebar</h3>
+					<p>This part is usually goes with WordPress or other CMS systems. Things below are just template and will not function.</p>
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Recent Projects</h3>
+					<p>These are the latest projects examples. Feel free to replace with yours.</p>
+
+					<div class="photo-row clearfix">
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+					</div><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Recent Posts</h3>
+					<p>Example of recent post list, you can list any type of post here</p>
+
+					<ul class="media-list">
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Yellow Submarine</h4>
+									<span>Beatles</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Don't Stop Me Now</h4>
+									<span>Queen</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Billie Jean</h4>
+									<span>Michael Jackson</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+					</ul><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Categories</h3>
+					<p>List of post categories. Remember this is just a template, there are no actual category pulled from database.</p>
+
+					<ul class="bordered-list">
+						<li><a href="blog.html">Web Design</a></li>
+						<li><a href="blog.html">Branding</a></li>
+						<li><a href="blog.html">Photography</a></li>
+						<li><a href="blog.html">Sketching</a></li>
+					</ul><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+			</div><!-- COL-SM-3 ENDS -->
+		</div><!-- ROW ENDS -->
+
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

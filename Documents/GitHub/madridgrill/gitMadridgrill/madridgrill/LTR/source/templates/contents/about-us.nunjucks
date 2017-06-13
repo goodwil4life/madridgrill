@@ -1,0 +1,241 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-clock-o"></i>
+					<div>
+						<h2 class="primary-color">HISTORY</h2>
+						<h3>Company Time-line</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_1"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_1" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">Foundation <small>1991</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_2"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_2" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">First Restaurant <small>1993</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_3"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_3" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">20 Employees <small>1994</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_4"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_4" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">Second Restaurant <small>1998</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_5"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_5" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">Third Restaurant <small>2005</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+				<div class="time-line-item">
+					<amp-img
+							class="circle"
+							src="http://placehold.it/375x375"
+							width="40"
+							height="40"
+							layout="fixed"
+							attribution="Foundation"
+							on="tap:timeline_lightbox_6"
+							role="button"
+							tabindex="0"></amp-img>
+					<amp-image-lightbox id="timeline_lightbox_6" layout="nodisplay"></amp-image-lightbox>
+
+					<h4 class="margin-0">Belgium Headquarters <small>2016</small></h4>
+					<p class="margin-0">Interactively whiteboard standardized deliverables through emerging niches.</p>
+				</div><!-- TIMELINE ITEM ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-area-chart"></i>
+					<div>
+						<h2 class="primary-color">OUR VISION & MISSION</h2>
+						<h3>Written by CEO</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p>Interactively administrate enterprise convergence rather than pandemic applications. Distinctively deploy cross-media innovation whereas seamless processes. Seamlessly fashion impactful e-markets via superior leadership. Monotonectally evisculate enabled.<br><br>Interactively incentivize ubiquitous ideas via client-based growth strategies. Energistically actualize leveraged manufactured products before covalent schemas. Interactively strategize fully researched methods of empowerment for bricks-and-clicks.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-users"></i>
+					<div>
+						<h2 class="primary-color">OUR TEAM</h2>
+						<h3>We're Working With</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<amp-carousel   class="our-team-carousel"
+								height="191"
+                                type="carousel">
+					<figure>
+						<amp-img src="http://placehold.it/105x142" width="105" height="142"></amp-img>
+						<figcaption>
+							<h5>JANE FRY</h5>
+							<h6>Chef</h6>
+						</figcaption>
+					</figure>
+					<figure>
+						<amp-img src="http://placehold.it/105x142" width="105" height="142"></amp-img>
+						<figcaption>
+							<h5>JOHN FRY</h5>
+							<h6>Manager</h6>
+						</figcaption>
+					</figure>
+					<figure>
+						<amp-img src="http://placehold.it/105x142" width="105" height="142"></amp-img>
+						<figcaption>
+							<h5>MIKE DOE</h5>
+							<h6>Waiter</h6>
+						</figcaption>
+					</figure>
+					<figure>
+						<amp-img src="http://placehold.it/105x142" width="105" height="142"></amp-img>
+						<figcaption>
+							<h5>MARTIN SEA</h5>
+							<h6>Sub Chef</h6>
+						</figcaption>
+					</figure>
+					<figure>
+						<amp-img src="http://placehold.it/105x142" width="105" height="142"></amp-img>
+						<figcaption>
+							<h5>SEAN PEA</h5>
+							<h6>Bartender</h6>
+						</figcaption>
+					</figure>
+                </amp-carousel>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-building"></i>
+					<div>
+						<h2 class="primary-color">CLIENTS</h2>
+						<h3>Brands Carousel</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER FLUID ENDS -->
+
+	<div class="container-fluid container-full primary-bg">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="space-3"></div>
+
+				<amp-carousel height="53"
+				              layout="fixed-height"
+				              delay="5000">
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+					<amp-img src="http://placehold.it/210x105"
+					         width="105"
+					         height="53"
+					         layout="fixed"></amp-img>
+				</amp-carousel>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

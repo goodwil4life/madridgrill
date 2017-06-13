@@ -1,0 +1,60 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Twitter</h3>
+					<h5>Live Twitter Widgets</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed tweets into your AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>Tweets are embedded via id.</p>
+
+                <div class="space-2"></div>
+
+                 <amp-twitter   width="375"
+                                height="472"
+                                layout="responsive"
+                                data-tweetid="638793490521001985">
+                                </amp-twitter>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Twitter Cards</h4>
+                <p>Options for the Tweet appearance can be set using data- attributes. E.g. data-cards="hidden" deactivates Twitter cards.</p>
+
+                <div class="space-2"></div>
+
+                <amp-twitter    width="390"
+                                height="330"
+                                layout="responsive"
+                                data-tweetid="585110598171631616"
+                                data-cards="hidden">
+                                </amp-twitter>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Size Adjustment</h4>
+                <p>Twitter does not currently provide an API that yields fixed aspect ratio Tweet embeds. You may need to manually tweak the provided width and height.</p>
+
+                <div class="space-2"></div>
+
+                <amp-twitter    width="345"
+                                height="330"
+                                data-tweetid="585110598171631616"
+                                data-cards="hidden">
+                                </amp-twitter>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

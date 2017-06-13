@@ -1,0 +1,84 @@
+<amp-sidebar id='mainSideBar' layout='nodisplay'>
+        <figure class="primary-bg">
+            <a id="panel-logo" href="index.html"><amp-img src="assets/img/logo@2x.png" width="64" height="29.5px"></amp-img></a>
+
+            <form id="panel-search" method="GET" action="https://localhost/tasty/LTR/dist/" target="_top">
+                <input type="search" class="panel-search" placeholder="Search..." name="mainSiteSearchQuery">
+                <input type="submit">
+            </form>
+            <button on='tap:mainSideBar.toggle' class="fa fa-caret-left light-color"></button>
+        </figure><!-- NAVBAR SEARCH ENDS -->
+
+        <nav id="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+            <a href="about-us.html"><i class="fa fa-building"></i>About Us</a>
+            <a href="services.html"><i class="fa fa-diamond"></i>Services</a>
+            <amp-accordion>
+                <section>
+                    <h6><span><i class="fa fa-rss"></i>Blog</span></h6>
+                    <div>
+                        <a href="blog.html">Blog List</a>
+                        <a href="blog-detail-sample-post.html">Sample Post</a>
+                        <a href="blog-detail-carousel-post.html">Carousel Post</a>
+                        <a href="blog-detail-video-post.html">Video Post</a>
+                        <a href="blog-detail-twitter-post.html">Twitter Post</a>
+                    </div>
+                </section>
+            </amp-accordion>
+            <amp-accordion>
+                <section>
+                    <h6><span><i class="fa fa-cubes"></i>Features</span></h6>
+                    <div>
+                        <a href="feature-accordion.html">Accordion</a>
+                        <a href="feature-ad.html">Ads</a>
+                        <a href="feature-anim.html">Animation</a>
+                        <a href="feature-audio.html">Audio</a>
+                        <a href="feature-blog-post-carousel.html">Blog Post Carousel</a>
+                        <a href="feature-brightcove.html">Brightcove</a>
+                        <a href="feature-button.html">Buttons</a>
+                        <a href="feature-carousel.html">Carousel</a>
+                        <a href="feature-dailymotion.html">Dailymotion</a>
+                        <a href="feature-facebook.html">Facebook</a>
+                        <a href="feature-gallery-grid.html">Gallery Grid</a>
+                        <a href="feature-grid.html">Grid</a>
+                        <a href="feature-icons.html">Icons</a>
+                        <a href="feature-icon-info-box.html">Icon Info Boxes</a>
+                        <a href="feature-iframe.html">iFrame</a>
+                        <a href="feature-image.html">Image</a>
+                        <a href="feature-image-lightbox.html">Image Lightbox</a>
+                        <a href="feature-instagram.html">Instagram</a>
+                        <a href="feature-lightbox.html">Lightbox</a>
+                        <a href="offline.html">Offline Page</a>
+                        <a href="404.html">Page Not Found</a>
+                        <a href="feature-pinterest.html">Pinterest</a>
+                        <a href="feature-table-responsive.html">Responsive Tables</a>
+                        <a href="feature-social-share.html">Social Share</a>
+                        <a href="feature-soundcloud.html">Soundcloud</a>
+                        <a href="feature-twitter.html">Twitter</a>
+                        <a href="feature-user-notification.html">User Notifications</a>
+                        <a href="feature-video.html">Videos</a>
+                        <a href="feature-vimeo.html">Vimeo</a>
+                        <a href="feature-youtube.html">Youtube</a>
+                    </div>
+                </section>
+            </amp-accordion>
+            <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+        </nav><!-- MENU ENDS -->
+
+        <div class="divider colored"></div>
+
+        <div>
+            <p class="margin-top-0"><strong>Address:</strong> Lipsum Street Lorem<br>Way PO 60009 Dolor/ALASKA</p>
+            <p><strong>Phone:</strong> <a href="tel:+12345678">+1 234 56 78</a></p>
+            <p><strong>Fax:</strong> +1 876 54 32</p>
+            <p class="margin-bottom-0"><strong>E-Mail:</strong> <a href="mailto:amp@mobius.studio">amp@mobius.studio</a></p>
+        </div><!-- CONTACT INFORMATION ENDS -->
+
+        <div>
+            <a href="#" class="social-ball fa fa-facebook"></a>
+            <a href="#" class="social-ball fa fa-twitter"></a>
+            <a href="#" class="social-ball fa fa-linkedin"></a>
+            <a href="#" class="social-ball fa fa-behance"></a>
+            <a href="#" class="social-ball fa fa-dribbble"></a>
+        </div><!-- SOCIAL ICONS ENDS -->
+    </amp-sidebar><!-- SIDEBAR ENDS -->

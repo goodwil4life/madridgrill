@@ -1,0 +1,53 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Animations</h3>
+					<h5>GIF & WebP Files</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed animations (gif, webp) into your AMP HTML files. Animation files should be loaded via HTTPS.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p>A basic embed. The usage of amp-anim is similar to that of amp-img.</p>
+
+                <div class="space-3"></div>
+
+                <amp-anim   width=245
+                            height=300
+                            src="http://placehold.it/245x300if"
+                            alt="an animation"
+                            attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
+                </amp-anim>
+
+                <div class="space-3"></div>
+
+				<h4 class="margin-0">Advanced Usage</h4>
+				<p>You can use amp-img as a placeholder when loading of src file takes time. placeholder attribute must be assigned in the child amp-img in this case.</p>
+
+                <div class="space-3"></div>
+
+                <amp-anim   width=245
+                            height=300
+                            src="http://placehold.it/245x300if"
+                            alt="an animation"
+                            attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
+                    <amp-img    placeholder
+                                width=245
+                                height=300
+                                src="http://placehold.it/245x300">
+                    </amp-img>
+                </amp-anim>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

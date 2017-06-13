@@ -1,0 +1,34 @@
+/**---------------------
+          *
+          * Our Team
+          *
+          *---------------------**/
+		.our-team-carousel figcaption{
+			position: relative;
+			padding-top: 15px;
+            margin-top: -7px;
+		}
+
+		.our-team-carousel figcaption:before{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			content: '';
+			height: 3px;
+			display: block;
+			background-color: rgb(243,116,93);
+
+			box-shadow: 0 6px 18px 0 rgba(136,136,136,.63);
+		}
+
+		.our-team-carousel h5,
+		.our-team-carousel h6{
+			margin: 0;
+			text-align: center;
+		}
+
+		.our-team-carousel h6{
+			opacity: .54;
+			font-weight: 600;
+		}

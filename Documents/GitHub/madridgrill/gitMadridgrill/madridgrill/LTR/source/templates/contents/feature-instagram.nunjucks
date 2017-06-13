@@ -1,0 +1,46 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Instagram</h3>
+					<h5>Instagram Posts and Videos</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed instagram videos and photos into your AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>Instagram photos are embedded via the instagram data-shortcode, which is found in every instagram photo URL. Many instagrams are square. When you set <strong>layout="responsive"</strong> any value where <strong>width</strong> and <strong>height</strong> are the same will work.</p>
+
+                <div class="space-2"></div>
+
+                <amp-instagram  data-shortcode="1totVhIFXl"
+                                width="1"
+                                height="1"
+                                layout="responsive">
+                </amp-instagram>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Non-Square Images</h4>
+                <p>If the image is not square, <strong>width</strong> and <strong>height</strong> should be the actual width and height of the instagram image.</p>
+
+                <div class="space-2"></div>
+
+                <amp-instagram  data-shortcode="BFcLkmOnEHd"
+                                width="375"
+                                height="430"
+                                layout="responsive">
+                </amp-instagram>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

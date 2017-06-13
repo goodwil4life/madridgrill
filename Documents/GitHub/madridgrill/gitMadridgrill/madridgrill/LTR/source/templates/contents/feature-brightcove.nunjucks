@@ -1,0 +1,36 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Brightcove</h3>
+					<h5>Brightcove Video Cloud</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">The <strong>amp-brightcove</strong> component allows embedding a Brightcove
+                    <a href="https://www.brightcove.com/en/online-video-platform"><strong>Video Cloud</strong></a> or <a href="https://www.brightcove.com/en/perform"><strong>Perform</strong></a> player.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p>A responsive brightcove video. The required data is <strong>data-account</strong> and <strong>data-video-id</strong>. Other supported parameters are <strong>data-player-id</strong>, <strong>data-embed</strong> and <strong>data-playlist-id</strong>.</p>
+
+                <div class="space-3"></div>
+
+                <amp-brightcove data-account="906043040001"
+                                data-video-id="1401169490001"
+                                data-player-id="180a5658-8be8-4f33-8eba-d562ab41b40c"
+                                layout="responsive"
+                                width="480"
+                                height="270">
+                </amp-brightcove>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

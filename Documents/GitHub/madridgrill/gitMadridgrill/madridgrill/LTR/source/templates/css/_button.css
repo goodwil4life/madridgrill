@@ -1,0 +1,43 @@
+/**---------------------
+		  *
+		  * Comment Items
+		  *
+		  *---------------------**/
+		.button{
+			overflow: hidden;
+			display: inline-block;
+
+			margin: 0 10px;
+			padding: 12px 26px;
+
+			cursor: pointer;
+			user-select: none;
+			transition: all 60ms ease-in-out;
+			text-align: center;
+			white-space: nowrap;
+			text-decoration: none;
+			text-transform: capitalize;
+
+			border: 0 none;
+			border-radius: 100px;
+
+			box-shadow: 0 6px 18px 0 rgba(136,136,136,.63);
+
+			font-size: 1.2rem;
+			font-weight: 900;
+			line-height: 1.3;
+
+			-webkit-appearance: none;
+			-moz-appearance:    none;
+			appearance:         none;
+		}
+
+		.button-large{
+			padding: 11px 30px;
+			font-size: 1.7rem;
+		}
+
+		.button-small{
+			padding: 6px 20px;
+			font-size: 1.1rem;
+		}

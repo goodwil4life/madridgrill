@@ -1,0 +1,34 @@
+/**---------------------
+          *
+          * Blog Carousel
+          *
+          *---------------------**/
+		.blog-carousel-item amp-img{
+			display: block;
+		}
+
+		.blog-carousel-item{
+			position: relative;
+		}
+
+		.blog-carousel-item-caption{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: #FFF;
+			padding: 10px 0 0;
+			line-height: 1;
+		}
+
+		.blog-carousel-item-caption h5{
+			line-height: 1.3;
+			margin-bottom: 3px;
+			font-size: 1.2rem;
+            white-space: normal;
+		}
+
+		.blog-carousel-item-caption span{
+			font-size: 1.1rem;
+			opacity: .54;
+		}

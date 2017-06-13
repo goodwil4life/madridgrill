@@ -1,0 +1,65 @@
+<div class="container-fluid container-full">
+		<div class="row">
+			<div class="col-xs-12">
+				<amp-iframe width="600" height="400"
+				            layout="responsive"
+				            sandbox="allow-scripts allow-same-origin allow-popups"
+				            frameborder="0"
+				            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2eUgeAK6j4ARbn5u_wAGqWA&key=AIzaSyCNCZ0Twm_HFRaZ5i-FuPDYs3rLwm4_848">
+					<amp-img layout="fill" src="http://placehold.it/512x512" placeholder></amp-img>
+				</amp-iframe><!-- GOOGLE MAPS ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FULL ENDS -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Contact Form</h3>
+					<h5>Working Php Mail</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">We created a separate page to include as iframe with form elements because AMP's current version doesn't support form elements. However this form is working and It's pretty easy to setup.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<amp-iframe width="600" height="485"
+				            layout="responsive"
+				            sandbox="allow-scripts allow-popups allow-forms"
+				            frameborder="0"
+				            src="_contact_form.html">
+					<amp-img layout="fill" src="http://placehold.it/512x512" placeholder></amp-img>
+				</amp-iframe><!-- CONTACT FORM ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Contact Info</h3>
+					<h5>Get In Touch</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div>
+					<p class="margin-top-0"><strong>Address:</strong> Lipsum Street Lorem Way PO 60009 Dolor/ALASKA</p>
+					<p><strong>Phone:</strong> <a href="tel:+12345678">+1 234 56 78</a></p>
+					<p><strong>Fax:</strong> +1 876 54 32</p>
+					<p><strong>E-Mail:</strong> <a href="mailto:amp@mobius.studio">amp@mobius.studio</a></p>
+					<p class="margin-bottom-0"><strong>Working:</strong> Everyday 08:00AM - 20:00PM</p>
+				</div><!-- CONTACT INFORMATION ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

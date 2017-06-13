@@ -1,0 +1,53 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Accordion</h3>
+					<h5>Custom Style</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">An accordion provides a way for viewers to have a glance at the outline of the content and jump to a section or their choice at their will.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p>Each of the <strong>amp-accordion</strong> component’s immediate children is considered a section in the accordion. Each of these nodes must be a <strong>&lt;section&gt;</strong> tag. Each <strong>&lt;section&gt;</strong> must contain only two direct children. The first child (of the section) will be considered as the heading of the section. Clicking/tapping on this section will trigger the expand/collapse behaviour.</p>
+
+                <div class="space-3"></div>
+
+                <amp-accordion class="accordion">
+                    <section expanded>
+                        <h4>Section 1</h4>
+                        <div>Bunch of awesome content.</div>
+                    </section>
+                    <section>
+                        <h4>Section 2</h4>
+                        <div>Bunch of even more awesome content. This time in a
+                            <code>&lt;div&gt;</code>.
+                        </div>
+                    </section>
+                    <section>
+                        <h4>Section 3</h4>
+                        <div>
+                            <figure>
+                                <amp-img src="http://placehold.it/375x375"
+                                     width="375"
+                                     height="375"
+                                     layout="responsive"
+                                     alt="an image"></amp-img>
+                            <figcaption>Images work as well.</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+                </amp-accordion>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

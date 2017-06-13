@@ -1,0 +1,107 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Carousel</h3>
+					<h5>Different Types Of</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">The amp-carousel component allows displaying multiple similar pieces of content along a horizontal axis.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p>Use <strong>type="carousel"</strong> to display a list of images as a continuous strip.</p>
+
+                <div class="space-3"></div>
+
+                <amp-carousel   height="275"
+                                layout="fixed-height"
+                                type="carousel">
+                    <amp-img    src="http://placehold.it/375x375"
+                                width="275"
+                                height="275"></amp-img>
+                    <amp-img    src="http://placehold.it/375x375"
+                                width="275"
+                                height="275"></amp-img>
+                    <amp-img    src="http://placehold.it/375x375"
+                                width="275"
+                                height="275"></amp-img>
+                </amp-carousel>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Slider Usage</h4>
+				<p>Use <strong>type="slides"</strong> to display a list of images as slides.</p>
+
+                <div class="space-3"></div>
+
+                <amp-carousel width="738"
+				              height="414"
+				              layout="responsive"
+				              type="slides">
+					<amp-img srcset="http://placehold.it/690x388 1300w, http://placehold.it/1476x830 1301w"
+					         width="738"
+					         height="414"
+					         layout="responsive"></amp-img>
+					<amp-img srcset="http://placehold.it/690x388 1300w, http://placehold.it/1476x830 1301w"
+					         width="738"
+					         height="414"
+					         layout="responsive"></amp-img>
+				</amp-carousel>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Slider Usage with Autoplay</h4>
+				<p>The <strong>autoplay</strong> attribute (type=slides only) advances the slide to the next slide without user interaction, by default it will advance a slide in 5000 millisecond intervals (5 seconds) and can be overridden by the <strong>delay</strong> attribute.</p>
+
+                <div class="space-3"></div>
+
+                <amp-carousel width="738"
+				              height="414"
+				              layout="responsive"
+				              type="slides"
+                              autoplay
+                              delay="3000">
+					<amp-img srcset="http://placehold.it/690x388 1300w, http://placehold.it/1476x830 1301w"
+					         width="738"
+					         height="414"
+					         layout="responsive"></amp-img>
+					<amp-img srcset="http://placehold.it/690x388 1300w, http://placehold.it/1476x830 1301w"
+					         width="738"
+					         height="414"
+					         layout="responsive"></amp-img>
+				</amp-carousel>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Supports Contents</h4>
+				<p>Each of these nodes may also have arbitrary HTML children.</p>
+
+                <div class="space-3"></div>
+
+                    <amp-carousel   width="400"
+                                    height="300"
+                                    layout="responsive"
+                                    type="slides">
+                        <div>
+                            Proactively extend technically sound markets without high-quality infrastructures. Distinctively architect high standards in opportunities for business core competencies. Dynamically architect cost effective content and intermandated convergence. Professionally implement leveraged customer service before bleeding-edge meta-services. Proactively exploit diverse users vis-a-vis.
+                        </div>
+                        <div>
+                            Completely disseminate standards compliant supply chains before 2.0 paradigms. Enthusiastically syndicate empowered schemas vis-a-vis premium best practices. Interactively incubate virtual products without interoperable process improvements. Holisticly develop next-generation web-readiness whereas cross-media quality vectors. Interactively target extensive growth strategies with.
+                        </div>
+                        <div>
+                            Interactively grow client-based customer service without web-enabled methodologies. Globally facilitate visionary channels with market-driven quality vectors. Intrinsicly integrate efficient testing procedures through competitive technology. Intrinsicly enhance seamless mindshare vis-a-vis go forward quality vectors. Interactively network end-to-end infrastructures through go.
+                        </div>
+                    </amp-carousel>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

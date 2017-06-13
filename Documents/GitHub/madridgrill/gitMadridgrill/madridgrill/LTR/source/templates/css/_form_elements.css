@@ -1,0 +1,31 @@
+/**---------------------
+          *
+          * Form Elements
+          *
+          *---------------------**/
+		::-webkit-input-placeholder { color: rgba(0,0,0,.54);font-style: italic; }
+		:-moz-placeholder { color: rgba(0,0,0,.54);font-style: italic;}
+		::-moz-placeholder {color: rgba(0,0,0,.54);font-style: italic;}
+		:-ms-input-placeholder {color: rgba(0,0,0,.54);font-style: italic;}
+
+		.form-elements input[type="text"],
+		.form-elements input[type="password"],
+		.form-elements input[type="email"],
+		.form-elements input[type="number"],
+		.form-elements input[type="date"],
+		.form-elements input[type="time"],
+		.form-elements textarea{
+			background: none;
+			border: none;
+			border-bottom: 2px solid rgba(0,0,0,.06);
+			padding: 0 10px;
+			line-height: 24px;
+			font-size: 1.2rem;
+			color: rgba(0,0,0,.87);
+			width: 100%;
+			font-style: normal;
+		}
+
+		.form-elements input:invalid{
+			border-bottom-color: #c0392b;
+		}

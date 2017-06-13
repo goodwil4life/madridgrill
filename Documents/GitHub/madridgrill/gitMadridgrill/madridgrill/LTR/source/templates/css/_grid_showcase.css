@@ -1,0 +1,25 @@
+/**---------------------
+          *
+          * Grid Showcase
+          *
+          *---------------------**/
+		.grid-showcase{
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.grid-showcase [class*="col-"]{
+			background-color: rgba(0,0,0,.06);
+			border: 1px solid rgba(0,0,0,.06);
+			height: 25px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.grid-showcase [class="col-xs-1"]{
+			font-size: .9rem;
+		}
+
+		.grid-showcase [class*="col-sm"]{
+			height: 100px;
+		}

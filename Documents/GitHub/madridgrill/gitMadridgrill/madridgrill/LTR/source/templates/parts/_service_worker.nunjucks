@@ -1,0 +1,4 @@
+<!--<amp-install-serviceworker src="sw.js"
+	                           data-iframe-src="http://localhost/tasty/LTR/dist/sw.html"
+	                           layout="nodisplay">
+	</amp-install-serviceworker>-->

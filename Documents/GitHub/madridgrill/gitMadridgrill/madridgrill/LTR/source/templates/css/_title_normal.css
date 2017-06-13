@@ -1,0 +1,15 @@
+/**---------------------
+		  *
+		  * Title Normal
+		  *
+		  *---------------------**/
+		.normal-title{
+			margin: 0;
+		}
+
+		.normal-title h2{
+			margin: 0;
+			line-height: 1.4;
+			padding-left: 10px;
+			border-left: 5px solid rgb(243,116,93);
+		}

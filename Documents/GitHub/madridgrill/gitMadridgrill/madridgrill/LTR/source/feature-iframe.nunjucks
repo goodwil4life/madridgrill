@@ -1,0 +1,52 @@
+{% set
+	pageData =
+		{
+			title: 'iFrame Feature | Tasty - AMP Restaurant Template',
+			author: 'Mobius Studio',
+			description: 'Tasty is a website template for smart phones and tablets. It is built with HTML5, CSS3 and Google\'s AMP project rules.',
+			keywords: 'premium template, html5, css3, responsive, amp, accelerated mobile pages',
+			canonical: 'http://localhost/tasty/LTR/dist/feature-iframe.html',
+
+			contentFile: 'templates/contents/feature-iframe.nunjucks',
+
+			scripts: [
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-install-serviceworker"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-form-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-form"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-iframe-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-iframe"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-sidebar-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-sidebar"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-accordion-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-accordion"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0.js"
+				}
+			],
+
+			css: [
+				"title"
+			],
+
+			structuredData: '{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"name": "Tasty",
+			"alternateName": "HTML5, CSS3 Responsive Mobile Theme",
+			"description": "Tasty is a website template for smart phones and tablets. It is built with Google\'s AMP project rules.",
+			"url": "http://localhost/tasty/LTR/dist/"
+		}'
+		}
+%}
+{% extends "templates/layout.nunjucks" %}

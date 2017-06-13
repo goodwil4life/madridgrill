@@ -1,0 +1,26 @@
+/**---------------------
+		  *
+		  * Progress Bar
+		  *
+		  *---------------------**/
+		.progress-bg-orange{background-color: #d35400}
+		.progress-bg-green{background-color: #27ae60}
+		.progress-bg-yellow{background-color: #f1c40f}
+		.progress-bg-red{background-color: #c0392b}
+
+		.progress-wrap{
+			background-color: rgba(0,0,0,.12);
+			overflow: hidden;
+			border-radius: 2.5px;
+			box-shadow: 0 2px 3px 0 rgba(0,0,0,.05);
+		}
+
+		.progress{height: 10px;}
+
+		.progress-bar:not(:last-child){
+			margin-bottom: 20px;
+		}
+
+		.width-90{width: 90%}
+		.width-80{width: 80%}
+		.width-70{width: 70%}

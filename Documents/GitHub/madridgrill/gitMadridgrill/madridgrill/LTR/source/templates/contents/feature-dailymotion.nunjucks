@@ -1,0 +1,50 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Dailymotion</h3>
+					<h5>Embed In</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed daily motion videos into your AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p>You can find the Dailymotion video id in the video page URL. Change the play button hover color with <strong>data-ui-highlight</strong>.</p>
+
+                <div class="space-3"></div>
+
+                <amp-dailymotion    data-videoid="x2m8jpp"
+                                    layout="responsive"
+                                    data-ui-highlight="FF4081"
+                                    width="480"
+                                    height="270"></amp-dailymotion>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Custom Embed</h4>
+				<p>Hide the logo and titles via <strong>amp-ui-logo</strong> and <strong>data-info</strong>.</p>
+
+                <div class="space-3"></div>
+
+                <amp-dailymotion    data-videoid="x3rdtfy"
+                                    layout="responsive"
+									data-endscreen-enable="false"
+									data-sharing-enable="false"
+									data-ui-highlight="444444"
+									data-ui-logo="false"
+									data-info="false"
+                                    width="480"
+                                    height="270"></amp-dailymotion>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

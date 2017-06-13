@@ -1,0 +1,22 @@
+/**---------------------
+		  *
+		  * Full Video Preview Blog Item
+		  *
+		  *---------------------**/
+		.full-video-preview-blog-item h2{
+			margin: 10px 0
+		}
+		.full-video-preview-blog-item .meta a{
+			font-size: 1.2rem;
+			opacity: .54;
+			display: block;
+			float: left;
+		}
+
+		.full-video-preview-blog-item .meta a:not(:first-child){
+			margin-left: 7px;
+		}
+
+		.full-video-preview-blog-item .meta a:last-child{
+			float: right;
+		}

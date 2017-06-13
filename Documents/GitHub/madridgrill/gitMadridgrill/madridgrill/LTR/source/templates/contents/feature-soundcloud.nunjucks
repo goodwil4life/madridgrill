@@ -1,0 +1,44 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Soundcloud</h3>
+					<h5>Play Tracks</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Play soundcloud tracks from within AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Classic Mode</h4>
+                <p>You can find the trackid in the Soundcloud embed code. The only supported layout mode is <strong>fixed-height</strong>. Get the height from the Soundcloud embed code.</p>
+
+                <div class="space-2"></div>
+
+                <amp-soundcloud height="166"
+                                layout="fixed-height"
+                                data-trackid="89299804"
+                                data-color="448AFF"></amp-soundcloud>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Visual Mode</h4>
+                <p>The visual mode doesn't allow changing the color. Make sure to use the same height as the Soundcloud embed code.</p>
+
+                <div class="space-2"></div>
+
+                <amp-soundcloud height="450"
+                                layout="fixed-height"
+                                data-trackid="89299804"
+                                data-visual="true"></amp-soundcloud>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

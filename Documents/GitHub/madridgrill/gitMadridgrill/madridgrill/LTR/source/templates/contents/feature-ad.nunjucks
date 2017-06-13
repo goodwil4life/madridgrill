@@ -1,0 +1,105 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Ads</h3>
+					<h5>Advertisement Support</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">AMP handles advertising code with It's custom tag <strong>amp-ad</strong>. You can find the official full documentation about it <a href="https://www.ampproject.org/docs/reference/amp-ad.html" target="_blank">here</a>.<br><br>In this page we created an example of AdSense. You can check it out by going down on this page.<br><br><strong>The official AMP documentation states that you need to include amp-ad script tag, It is outdated and you DO NOT need to put that script tag.</strong></p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Supported ad networks</h4>
+				<ul>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/a9.md">A9</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adblade.md">Adblade</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adition.md">ADITION</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adform.md">Adform</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adman.md">Adman</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adreactor.md">AdReactor</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/google/adsense.md">AdSense</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adstir.md">AdStir</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/adtech.md">AdTech</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/aduptech.md">Ad Up Technology</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/appnexus.md">AppNexus</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/chargeads.md">Chargeads</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/colombia.md">Colombia</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/criteo.md">Criteo</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/dotandads.md">Dot and Media</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/google/doubleclick.md">Doubleclick</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/eplanning.md">E-Planning</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/flite.md">Flite</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/gmossp.md">GMOSSP</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/imobile.md">I-Mobile</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/improvedigital.md">Improve Digital</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/industrybrains.md">Industrybrains</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/mantis.md">MANTIS</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/mediaimpact.md">MediaImpact</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/nend.md">Nend</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/openadstream.md">Open AdStream (OAS)</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/microad.md">MicroAd</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/openx.md">OpenX</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/plista.md">plista</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/pubmatic.md">PubMatic</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/revcontent.md">Revcontent</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/rubicon.md">Rubicon Project</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/sharethrough.md">Sharethrough</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/smartadserver.md">Smart AdServer</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/sortable.md">Sortable</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/triplelift.md">TripleLift</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/teads.md">Teads</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/webediads.md">Webediads</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/weborama.md">Weborama</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/yieldbot.md">Yieldbot</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/yieldmo.md">Yieldmo</a></li>
+					<li><a href="https://github.com/ampproject/amphtml/blob/master/builtins/../ads/yahoojp.md">YahooJP</a></li>
+				</ul>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+				<p><strong>amp-ad</strong> requires <strong>width</strong> and <strong>height</strong> values. Select an ad network via the type argument.</p>
+				<amp-ad width=300 height=200
+				        type="adsense"
+				        data-ad-client="ca-pub-9517934844573185"
+				        data-ad-slot="5817422493">
+				</amp-ad>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Using Placeholders</h4>
+				<p>Optionally <strong>amp-ad</strong> supports a child element with the <strong>placeholder</strong> attribute. If supported by the ad network, this element is shown until the ad is available for viewing.</p>
+				<amp-ad width=300 height=200
+				        type="adsense"
+				        data-ad-client="ca-pub-9517934844573185"
+				        data-ad-slot="5817422493">
+					<div placeholder>
+						<b>Placeholder here!!!</b>
+					</div>
+				</amp-ad>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Using Placeholders</h4>
+				<p><strong>amp-ad</strong> supports a child element with the <strong>fallback</strong> attribute. If supported by the ad network, this element is shown if no ad is available for this slot.</p>
+				<amp-ad width=300 height=200
+				        type="adsense"
+				        data-ad-client="ca-pub-9517934844573185"
+				        data-ad-slot="5817422493">
+					<div fallback>
+						<p>Thank you for trying AMP!</p>
+						<p>You got lucky! We have no ad to show to you!</p>
+					</div>
+				</amp-ad>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

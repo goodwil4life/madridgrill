@@ -1,0 +1,11 @@
+/**---------------------
+		  *
+		  * Blog Item
+		  *
+		  *---------------------**/
+		.blog-item .preview {
+			display: block;
+			margin-bottom: 15px
+		}
+
+		.subtitle{font-size: 1.2rem}

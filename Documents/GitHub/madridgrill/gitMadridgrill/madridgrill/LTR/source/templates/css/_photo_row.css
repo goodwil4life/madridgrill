@@ -1,0 +1,15 @@
+/**---------------------
+		  *
+		  * Photo Row
+		  *
+		  *---------------------**/
+		.photo-row {
+			margin: 15px -2.5px 0
+		}
+
+		.photo-row a {
+			width: 33.33333333333333%;
+			padding: 0 2.5px;
+			float: left;
+			display: block
+		}

@@ -1,0 +1,53 @@
+/**---------------------
+          *
+          * Big Icon with Titles
+          *
+          *---------------------**/
+		.big-icon-with-titles h3,
+		.big-icon-with-titles h4{
+			margin: 0;
+		}
+
+		.big-icon-with-titles h4{
+			font-weight: 400;
+			opacity: .87;
+		}
+
+		.white-text i{
+			font-size: 64px;
+            line-height: 1;
+		}
+
+		.white-text div{
+			margin-bottom: 10px;
+		}
+
+		.white-text i,
+		.white-text h3,
+		.white-text h4 {color: #FFF}
+
+		.plus-divider{position: relative;}
+
+		.plus-divider:before,
+		.plus-divider:after{
+			content: '';
+			position: absolute;
+			display: block;
+			left: 50%;
+			top: 50%;
+			opacity: .24;
+			background-color: #FFF;
+
+			-webkit-transform: translate3D(-50%,-50%,0);
+			transform: translate3D(-50%,-50%,0);
+		}
+
+		.plus-divider:before{
+			width: 3px;
+			height: 224px;
+		}
+
+		.plus-divider:after{
+			height: 3px;
+			width: 224px;
+		}

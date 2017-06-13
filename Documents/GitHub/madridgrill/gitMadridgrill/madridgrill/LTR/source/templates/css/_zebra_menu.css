@@ -1,0 +1,46 @@
+/**---------------------
+          *
+          * Zebra Menu
+          *
+          *---------------------**/
+		.zebra-menu{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.zebra-menu li{
+			background: rgb(243,116,93);
+			color: #FFF;
+			font-size: 1.2rem;
+			line-height: 31px;
+		}
+
+		.zebra-menu li:nth-child(even){
+			background: #FFF;
+			color: rgba(0,0,0,.54);
+		}
+
+		.zebra-menu li:after{
+			display: table;
+			content: '';
+			clear: both;
+		}
+
+		.zebra-menu span{
+			float: right;
+			border-left: 1px dashed rgb(243,116,93);
+			text-align: center;
+			width: 65px;
+			font-weight: 900;
+		}
+
+		.zebra-menu li:nth-child(odd) span{
+			border-color: #FFF;
+		}
+
+		.zebra-menu div{
+			float: left;
+            font-weight: 400;
+			padding-left: 15px;
+		}

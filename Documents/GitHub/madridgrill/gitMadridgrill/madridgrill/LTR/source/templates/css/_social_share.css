@@ -1,0 +1,44 @@
+/**---------------------
+		  *
+		  * Social Share
+		  *
+		  *---------------------**/
+		.social-share-container{
+			height: 30px;
+		}
+
+		.socials-share-title{
+			line-height: 30px;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 10px;
+		}
+
+		amp-social-share[type=facebook],
+		amp-social-share[type=gplus],
+		amp-social-share[type=pinterest],
+		amp-social-share[type=email],
+		amp-social-share[type=twitter],
+		amp-social-share[type=linkedin]{
+			background-image: none;
+		}
+
+		amp-social-share[type=whatsapp]{
+			background-color: #189D0E;
+		}
+
+		amp-social-share[type=baidu]{
+			background-color: #4252A2;
+		}
+
+		amp-social-share{
+			font-size: 1.6rem;
+			display: inline-block;
+			text-align: center;
+			line-height: 30px;
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			color: #FFF;
+			margin-right: 5px;
+		}

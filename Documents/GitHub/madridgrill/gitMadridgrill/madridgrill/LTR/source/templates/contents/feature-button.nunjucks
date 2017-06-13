@@ -1,0 +1,102 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Buttons</h3>
+					<h5>Custom Style</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">There are 3 sizes of buttons and 8 different colors which you can mix together.</p>
+
+                <div class="space-3"></div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large primary-bg light-color">Large</button>
+							<button class="button primary-bg light-color">Normal</button>
+							<button class="button button-small primary-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large dark-bg light-color">Large</button>
+							<button class="button dark-bg light-color">Normal</button>
+							<button class="button button-small dark-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large ocean-bg light-color">Large</button>
+							<button class="button ocean-bg light-color">Normal</button>
+							<button class="button button-small ocean-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large grass-bg light-color">Large</button>
+							<button class="button grass-bg light-color">Normal</button>
+							<button class="button button-small grass-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large salmon-bg light-color">Large</button>
+							<button class="button salmon-bg light-color">Normal</button>
+							<button class="button button-small salmon-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large sun-bg salmon-color">Large</button>
+							<button class="button sun-bg salmon-color">Normal</button>
+							<button class="button button-small sun-bg salmon-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large alge-bg light-color">Large</button>
+							<button class="button alge-bg light-color">Normal</button>
+							<button class="button button-small alge-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="row">
+					<div class="col-xs-12">
+						<div class="button-row">
+							<button class="button button-large flower-bg light-color">Large</button>
+							<button class="button flower-bg light-color">Normal</button>
+							<button class="button button-small flower-bg light-color">Small</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

@@ -1,0 +1,43 @@
+/**---------------------
+		  *
+		  * Comment Items
+		  *
+		  *---------------------**/
+		.comment-item>h4,
+		.comment-item>small {
+			line-height: 1.5
+		}
+
+		.comment-item>h4 {
+			margin-top: 0;
+			margin-bottom: 10px
+		}
+
+		.comment-item {
+			margin-bottom: 30px
+		}
+
+		.comment-item>small a {
+			float: right
+		}
+
+		.comment-item>small span {
+			float: left
+		}
+
+		.comment-item.child {
+			margin-left: 30px
+		}
+
+		h3+.comment-item {
+			margin-top: 15px
+		}
+
+		.comment-item>small div.stars {
+			float: right
+		}
+
+		.comment-item>small div.stars i {
+			float: left;
+			font-size: 1.4rem
+		}

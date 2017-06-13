@@ -1,0 +1,28 @@
+{
+  "name": "Tasty",
+  "version": "1.0.0",
+  "description": "Tasty is a Restaurant website template for smart phones and tablets. It is built with HTML5, CSS3 and Google's AMP project rules.",
+  "author": "Mobius Studio",
+  "license": "Themeforest Licence",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+	"amp",
+	"theme",
+	"template",
+	"css3",
+	"html5",
+	"responsive"
+  ],
+  "devDependencies": {
+	"gulp": "^3.9.1",
+	"gulp-changed": "^1.3.0",
+	"gulp-htmlmin": "^2.0.0",
+	"gulp-nunjucks-render": "^2.0.0",
+	"gulp-replace": "^0.5.4",
+	"pump": "^1.0.1",
+	"sw-toolbox": "^3.2.1"
+  }
+}

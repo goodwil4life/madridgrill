@@ -1,0 +1,120 @@
+{% set
+	pageData =
+		{
+			title: 'Blog Sample Post | Tasty - AMP Restaurant Template',
+			author: 'Mobius Studio',
+			description: 'Tasty is a website template for smart phones and tablets. It is built with HTML5, CSS3 and Google\'s AMP project rules.',
+			keywords: 'premium template, html5, css3, responsive, amp, accelerated mobile pages',
+			canonical: 'http://localhost/tasty/LTR/dist/blog-detail-sample-post.html',
+
+			contentFile: 'templates/contents/blog-detail-sample-post.nunjucks',
+
+			scripts: [
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-install-serviceworker"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-form-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-form"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-social-share-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-social-share"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-iframe-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-iframe"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-carousel-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-carousel"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-sidebar-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-sidebar"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0/amp-accordion-0.1.js",
+					"tags": {"attr": "custom-element", "val": "amp-accordion"}
+				},
+				{
+					"src": "https://cdn.ampproject.org/v0.js"
+				}
+			],
+
+			css: [
+				"blog_item",
+				"sidebar_box",
+				"photo_row",
+				"media_list",
+				"bordered_list",
+				"social_share",
+				"comment_item"
+			],
+
+			structuredData: '{
+			"@context":"http://schema.org",
+			"@type":"Blog",
+			"@id":"https://mobius.studio/themes/tasty/blog-detail-sample-post.html",
+			"about":{
+				"@type":"CreativeWork",
+				"name":"Tasty Template"
+			},
+			"headline":"Tasty Blog Posts",
+			"description":"This data is for blog post list page.",
+			"blogPost":[ {
+				"@type":"BlogPosting",
+				"name":"Sample Post",
+				"headline":"Sample Post",
+				"articleBody": "Compellingly incentivize intuitive ...",
+				"datePublished":"2016-07-02T13:08:00-07:00",
+				"dateModified":"2016-07-03T13:08:00-07:00",
+				"mainEntityOfPage":"https://mobius.studio/themes/tasty/blog-detail-sample-post.html",
+				"author":"Mobius Studio",
+				"publisher":{
+					"@type":"organization",
+					"name": "Mobius Studio",
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://mobius.studio/themes/tasty/assets/img/logo_dark@2x.png",
+						"width": 177,
+						"height": 60
+					}
+				},
+				"image": {
+					"@type": "ImageObject",
+					"url": "http://placehold.it/696x391",
+					"width": 696,
+					"height": 391
+				}
+			} ],
+			"comment": [ {
+				"headline": "First Comment",
+				"author":"Mobius Studio",
+				"about":{
+					"@type":"CreativeWork",
+					"name":"Tasty Template"
+				},
+				"text": "Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet urna bibendum augue ultricies dictum vulputate ac orci."
+			}, {
+				"headline": "Second Comment",
+				"author":"Mobius Studio",
+				"about":{
+					"@type":"CreativeWork",
+					"name":"Tasty Template"
+				},
+				"text": "Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet urna bibendum augue ultricies dictum vulputate ac orci."
+			}, {
+				"headline": "Third Comment",
+				"author":"Mobius Studio",
+				"about":{
+					"@type":"CreativeWork",
+					"name":"Tasty Template"
+				},
+				"text": "Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet urna bibendum augue ultricies dictum vulputate ac orci."
+			} ]
+		}'
+		}
+%}
+{% extends "templates/layout.nunjucks" %}

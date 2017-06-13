@@ -1,0 +1,24 @@
+/**---------------------
+		  *
+		  * Parallax Area
+		  *
+		  *---------------------**/
+		.parallax-area{
+			background-attachment: fixed;
+		    background-position: 80% 0;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    padding: 40px 0;
+		    margin-bottom: 30px;
+		}
+
+		.parallax-area.margin-bottom-0{
+			margin-bottom: 0;
+		}
+
+		.parallax-area .row:last-child [class*="col-"]{
+			margin-bottom: 0;
+		}
+
+		.parallax-area.bg-1{background-image: url(http://placehold.it/768x400)}
+		.parallax-area.bg-2{background-image: url(http://placehold.it/768x1024)}

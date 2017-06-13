@@ -1,0 +1,38 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP User Notification</h3>
+					<h5>Cool Feature</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Use <strong>amp-user-notification</strong> to display a dismissable notification to the user. Use this to implement a dialog to notify users about cookies.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Uses Local Storage</h4>
+                <p>Browser remember the users choice by saving it to their browsers local storage.</p>
+
+                <div class="space-2"></div>
+
+                <amp-user-notification  layout=nodisplay
+                                        id="amp-user-notification1"
+                                        class="salmon-bg sun-color">
+                                        This is an amp-user-notification. It uses local storage to store the dismissed state.
+                                        <button class="light-bg" on="tap:amp-user-notification1.dismiss">I accept</button>
+                                        </amp-user-notification>
+
+				<div class="divider colored"></div>
+
+				<p>Efficiently promote magnetic data via global platforms. Holisticly parallel task enabled communities for technically sound functionalities. Uniquely plagiarize customized opportunities whereas out-of-the-box quality vectors. Objectively synergize business alignments with process-centric niches. Efficiently e-enable exceptional quality vectors without holistic bandwidth.<br><br>Progressively leverage existing maintainable resources after vertical benefits. Assertively reinvent next-generation partnerships via flexible resources. Uniquely fabricate multidisciplinary partnerships through integrated metrics. Authoritatively expedite distributed information without value-added methods of empowerment. Professionally network superior infomediaries whereas cross-unit collaboration and idea-sharing.<br><br>Holisticly strategize alternative communities whereas high standards in partnerships. Proactively fashion 2.0 resources through client-centric e-tailers. Continually transition market-driven communities for compelling initiatives. Dramatically empower customer directed "outside the box" thinking without high-payoff human.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

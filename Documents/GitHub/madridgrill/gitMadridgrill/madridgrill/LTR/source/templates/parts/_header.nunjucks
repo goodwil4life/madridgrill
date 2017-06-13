@@ -1,0 +1,5 @@
+<header itemscope itemtype="https://schema.org/WPHeader">
+        <button class="toast pull-left" on="tap:mainSideBar.toggle"><span></span></button>
+        <a id="logo" href="index.html"><amp-img src="assets/img/logo@2x.png" width="64" height="29.5px"></amp-img></a>
+        <a class="pull-right fa fa-envelope" href="contact.html"></a>
+    </header><!-- TOP NAVBAR ENDS -->

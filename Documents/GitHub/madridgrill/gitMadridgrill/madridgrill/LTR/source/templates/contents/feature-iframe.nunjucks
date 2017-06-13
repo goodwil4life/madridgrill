@@ -1,0 +1,99 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP iFrame</h3>
+					<h5>Embed iFrames</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">iFrames must be either 600px away from the top or not within the first 75% of the viewport when scrolled to the top – whichever is smaller. This example might not work depending on your screen width. In this case it will only show an loading indicator.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+
+                <div class="space-2"></div>
+
+                <amp-iframe width="500"
+                    height="281"
+                    layout="responsive"
+                    sandbox="allow-scripts allow-same-origin allow-popups"
+                    allowfullscreen
+                    frameborder="0"
+                    src="https://player.vimeo.com/video/140261016">
+                </amp-iframe>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Using Placeholders</h4>
+                <p>The 600px away from the top constraint can be avoided by adding a placeholder image.</p>
+
+                <div class="space-2"></div>
+
+                <amp-iframe width="500"
+                            height="281"
+                            layout="responsive"
+                            sandbox="allow-scripts allow-same-origin allow-popups"
+                            allowfullscreen
+                            frameborder="0"
+                            src="https://player.vimeo.com/video/140261016">
+                    <amp-img    layout="fill"
+                                src="https://i.vimeocdn.com/video/536538454_640.webp"
+                                placeholder></amp-img>
+                </amp-iframe>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Vimeo</h4>
+                <p>If the video is 600px below the top, no placeholder image is required.</p>
+
+                <div class="space-2"></div>
+
+                <amp-iframe width="500"
+                            height="281"
+                            layout="responsive"
+                            sandbox="allow-scripts allow-same-origin allow-popups"
+                            allowfullscreen
+                            frameborder="0"
+                            src="https://player.vimeo.com/video/140261016">
+                </amp-iframe>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Giphy</h4>
+
+                <div class="space-2"></div>
+
+                <amp-iframe width="600"
+                            height="400"
+                            layout="responsive"
+                            sandbox="allow-scripts allow-same-origin allow-popups"
+                            frameborder="0"
+                            src="https://giphy.com/embed/DKG1OhBUmxL4Q">
+                </amp-iframe>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Google Maps</h4>
+                <p>Embedding Google Maps is possible via the <a href="https://developers.google.com/maps/documentation/embed/guide"><strong>Google Maps Embed API</strong></a> and requires an <a href="https://developers.google.com/maps/documentation/embed/guide#api_key"><strong>API Key</strong></a>.</p>
+
+                <div class="space-2"></div>
+
+                <amp-iframe width="600"
+                            height="400"
+                            layout="responsive"
+                            sandbox="allow-scripts allow-same-origin allow-popups"
+                            frameborder="0"
+                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2eUgeAK6j4ARbn5u_wAGqWA&key=AIzaSyCNCZ0Twm_HFRaZ5i-FuPDYs3rLwm4_848">
+                </amp-iframe>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

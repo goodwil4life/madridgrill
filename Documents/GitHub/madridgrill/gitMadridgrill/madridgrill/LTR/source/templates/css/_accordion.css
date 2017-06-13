@@ -1,0 +1,46 @@
+/**---------------------
+		  *
+		  * Accordion
+		  *
+		  *---------------------**/
+		.accordion section{
+			margin-bottom: 4px;
+		}
+
+		.accordion section > h4{
+			padding: 5px 15px 5px 35px;
+			background-color: rgba(0,0,0,.02);
+            border-color: rgba(0,0,0,.06);
+		}
+
+		.accordion section > h4:before{
+			content: '';
+			position: absolute;
+			left: 15px;
+			top: 50%;
+			margin-top: -2px;
+			display: block;
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background-color: rgba(87,130,201,1);
+		}
+
+		.accordion section > h4:after{
+			content: '\f107';
+			position: absolute;
+			right: 15px;
+			top: 0;
+			display: block;
+			font-family: FontAwesome;
+			line-height: 39px;
+			font-size: 1.2rem;
+		}
+
+		.accordion section[expanded] > h4:after{
+			content: '\f106';
+		}
+
+		.accordion section > div{
+			padding: 10px 15px;
+		}

@@ -1,0 +1,92 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Responsive Grid</h3>
+					<h5>Grid Showcase</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">This grid is taken from Bootstrap and removed the unused unnecessary code.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">12 Columns Phone Grid</h4>
+				<p>The grid below is a demonstration of how to use it.If you are familiar with grids It won't be a problem but If you don't you better learn this simple concept because It is around the web for many years.</p>
+
+                <div class="space-3"></div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-11"></div>
+                    <div class="col-xs-1">COL 1</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-10"></div>
+                    <div class="col-xs-2">col-xs-2</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-9"></div>
+                    <div class="col-xs-3">col-xs-3</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-8"></div>
+                    <div class="col-xs-4">col-xs-4</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-7"></div>
+                    <div class="col-xs-5">col-xs-5</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-6"></div>
+                    <div class="col-xs-6">col-xs-6</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-5"></div>
+                    <div class="col-xs-7">col-xs-7</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-8">col-xs-8</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-9">col-xs-9</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-10">col-xs-10</div>
+                </div>
+
+                <div class="row grid-showcase">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-11">col-xs-11</div>
+                </div>
+
+				<h4 class="margin-0">For Tablets</h4>
+				<p>If you check below columns with your tablet and phone you will see difference. On tablet these columns are near each other. On phone under each other.<br><br>You can change number from 1-12 on all column types, like you can create 1 row of 12 columns on tablet but it may show 6 rows of 2 columns on phones or vice versa.</p>
+
+                <div class="space-3"></div>
+
+                <div class="row grid-showcase">
+                    <div class="col-sm-6 col-xs-12">col-sm-6</div>
+                    <div class="col-sm-6 col-xs-12">col-sm-6</div>
+                </div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

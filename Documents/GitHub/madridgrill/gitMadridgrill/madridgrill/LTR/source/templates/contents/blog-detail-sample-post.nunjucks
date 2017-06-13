@@ -1,0 +1,198 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="blog-item clearfix">
+					<div class="preview">
+						<amp-img layout="responsive" src="http://placehold.it/690x388" width=690 height=388></amp-img>
+					</div>
+					<a href="blog-detail-sample-post.html"><h3 class="margin-0">Sample Post</h3></a>
+
+					<div class="subtitle">Posted on <a href="#">10 January 2015</a> in <a href="#">Web Design</a> by <a href="#">Mobius Studio</a></div>
+
+					<div class="space"></div>
+
+					<div class="details">
+						<p>Energistically innovate market positioning e-markets through multifunctional mindshare. Uniquely impact top-line expertise whereas e-business benefits. Continually leverage other's emerging leadership and timely customer service.<br><br><strong>Conveniently embrace user friendly opportunities</strong> rather than tactical scenarios. Dynamically mesh one-to-one intellectual capital before.</p>
+					</div>
+
+					<div class="divider-30 colored"></div>
+
+					<div class="social-share-container">
+						<strong class="socials-share-title">Share On: </strong>
+						<amp-social-share type="facebook"
+						                  width="30"
+						                  height="30"
+						                  layout="fixed"
+						                  data-param-text="Hello world"
+						                  data-param-href="https://example.com/?ref=URL"
+						                  data-param-app_id="145634995501895">
+							<i class="fa fa-facebook"></i></amp-social-share>
+
+						<amp-social-share
+								type="twitter"
+								width="30"
+								height="30"
+								layout="fixed"><i class="fa fa-twitter"></i></amp-social-share>
+						<amp-social-share
+								type="linkedin"
+								width="30"
+								height="30"
+								layout="fixed"><i class="fa fa-linkedin"></i></amp-social-share>
+
+						<amp-social-share type="baidu"
+						                  width="30"
+						                  height="30"
+						                  layout="fixed"
+						                  data-share-endpoint="http://cang.baidu.com/do/add"
+						                  data-param-iu="CANONICAL_URL"
+						                  data-param-it="TITLE">B</amp-social-share>
+
+						<amp-social-share type="whatsapp"
+						                  width="30"
+						                  height="30"
+						                  layout="fixed"
+						                  data-share-endpoint="whatsapp://send"
+						                  data-param-text="Check out this article: TITLE - CANONICAL_URL">
+							<i class="fa fa-whatsapp"></i></amp-social-share>
+					</div><!-- SOCIAL-SHARE ENDS -->
+				</div><!-- NEWS-ITEM ENDS -->
+
+				<div class="divider-30 colored"></div>
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Comment</h3>
+					<p>Join the conversation and post your thoughts. Note: this is not a functional comment form...</p>
+
+					<amp-iframe width="345" height="150"
+					            layout="responsive"
+					            sandbox="allow-scripts allow-popups allow-forms"
+					            frameborder="0"
+					            src="_comment_form.html">
+						<amp-img layout="fill" src="http://placehold.it/512x512" placeholder></amp-img>
+					</amp-iframe><!-- COMMENT FORM ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Comment List (5)</h3>
+
+					<div class="comment-item">
+						<small class="block clearfix">
+							<span>15 June 2015</span>
+							<a href="#">Reply</a>
+						</small>
+						<h4>Mark Thompson</h4>
+						<p>Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet urna bibendum augue ultricies dictum vulputate ac orci.</p>
+					</div><!-- COMMENT ITEM ENDS -->
+
+					<div class="comment-item child">
+						<small class="block clearfix">
+							<span>16 January 2015</span>
+							<a href="#">Reply</a>
+						</small>
+						<h4>Jane Thompson</h4>
+						<p>Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet.</p>
+					</div><!-- COMMENT CHILD ENDS -->
+
+					<div class="comment-item">
+						<small class="block clearfix">
+							<span>15 June 2015</span>
+							<a href="#">Reply</a>
+						</small>
+						<h4>Mark Thompson</h4>
+						<p>Maecenas cursus efficitur purus, sit amet porttitor sem tincidunt sit amet. In sit amet urna bibendum augue ultricies dictum vulputate ac orci.</p>
+					</div><!-- COMMENT ITEM ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+			</div><!-- COL-SM-9 ENDS -->
+
+			<div class="col-sm-3">
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Widget Sidebar</h3>
+					<p>This part is usually goes with WordPress or other CMS systems. Things below are just template and will not function.</p>
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Recent Projects</h3>
+					<p>These are the latest projects examples. Feel free to replace with yours.</p>
+
+					<div class="photo-row clearfix">
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+						<a href="#"><amp-img src="http://placehold.it/331x331" layout="responsive" width="111" height="111"></amp-img></a>
+					</div><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Recent Posts</h3>
+					<p>Example of recent post list, you can list any type of post here</p>
+
+					<ul class="media-list">
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Yellow Submarine</h4>
+									<span>Beatles</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Don't Stop Me Now</h4>
+									<span>Queen</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a class="clearfix" href="blog-detail-sample-post.html">
+								<amp-img src="http://placehold.it/331x331"
+								         layout="fixed"
+								         width="50"
+								         height="50"
+								         class="pull-left circle"></amp-img>
+
+								<div>
+									<h4 class="margin-0">Billie Jean</h4>
+									<span>Michael Jackson</span>
+								</div>
+
+								<i class="fa fa-angle-right"></i>
+							</a>
+						</li>
+					</ul><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+
+				<div class="blog-sidebar-box">
+					<h3 class="margin-0">Categories</h3>
+					<p>List of post categories. Remember this is just a template, there are no actual category pulled from database.</p>
+
+					<ul class="bordered-list">
+						<li><a href="blog.html">Web Design</a></li>
+						<li><a href="blog.html">Branding</a></li>
+						<li><a href="blog.html">Photography</a></li>
+						<li><a href="blog.html">Sketching</a></li>
+					</ul><!-- PHOTO-ROW ENDS -->
+				</div><!-- SIDEBAR-BOX ENDS -->
+			</div><!-- COL-SM-3 ENDS -->
+		</div><!-- ROW ENDS -->
+
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

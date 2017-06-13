@@ -1,0 +1,22 @@
+<div class="container-fluid dark-bg light-color">
+            <div class="space-3"></div>
+            <footer id="footer">
+                <a href="index.html" class="logo">
+                    <amp-img src="assets/img/logo@2x.png" width="64" height="29.5"></amp-img>
+                </a>
+                <div><span>AMP Resturant Template</span></div>
+                <div class="space-2"></div>
+                <div>
+                    <a href="#" class="social-ball fa fa-facebook"></a>
+                    <a href="#" class="social-ball fa fa-twitter"></a>
+                    <a href="#" class="social-ball fa fa-google-plus"></a>
+                    <a href="#" class="social-ball fa fa-dribbble"></a>
+                    <a href="#" class="social-ball fa fa-twitch"></a>
+                </div>
+                <div class="space"></div>
+                <div>
+                    <small>Copyright © 2016 by Mobius Studio</small>
+                </div>
+            </footer>
+            <div class="space-3"></div>
+        </div>

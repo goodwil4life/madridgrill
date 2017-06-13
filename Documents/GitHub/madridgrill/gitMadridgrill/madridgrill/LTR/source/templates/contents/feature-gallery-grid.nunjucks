@@ -1,0 +1,140 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Gallery Grid</h3>
+					<h5>Lightbox Enabled</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">We took some part of <strong>Bootstrap's grid</strong> code and optimized it into Tasty. This way you can create <strong>responsive grids</strong>. Images supporting <strong>lightbox</strong> feature and <strong>caption</strong> within them.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row no-gap">
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_1" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_1"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_2" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_2"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_3" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_3"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_4" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_4"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_5" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_5"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_6" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_6"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_7" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_7"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_8" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_8"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+			<div class="col-xs-4">
+				<amp-image-lightbox id="grid_gallery_image_9" layout="nodisplay"></amp-image-lightbox>
+				<figure class="lightbox-item-with-caption">
+					<amp-img on="tap:grid_gallery_image_9"
+					         layout="responsive"
+					         role="button"
+					         tabindex="0"
+					         srcset="http://placehold.it/331x331 1300w, http://placehold.it/1536x1536 1301w"
+					         width="115"
+					         height="115"></amp-img>
+					<figcaption>Hi! This is an image caption. This place can be styled with CSS code. You can enter some detailed information about the picture.</figcaption>
+				</figure>
+			</div><!-- COL-XS-4/GALLERY-ITEM ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

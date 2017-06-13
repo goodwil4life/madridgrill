@@ -1,0 +1,33 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>FontAwesome Icons</h3>
+					<h5>Version 4.6</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="http://fontawesome.io/icons/" target="_blank" rel="nofollow">This is the official FontAwesome page list of icons.</a> There you can use the search bar to easily find the icon you want.<br><br>When you pick an icon note it's name, for example <strong>adjust</strong> icon. In Tasty you can use it like this<br><br><code>&lt;i class="fa fa-adjust"&gt;&lt;i&gt;</code>.
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Examples</h4>
+
+				<div class="space-2"></div>
+
+				<div class="row">
+					<div class="col-xs-3"><i class="fa fa-deaf"></i></div>
+					<div class="col-xs-3"><i class="fa fa-blind"></i></div>
+					<div class="col-xs-3"><i class="fa fa-wheelchair-alt"></i></div>
+					<div class="col-xs-3"><i class="fa fa-arrows"></i></div>
+				</div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

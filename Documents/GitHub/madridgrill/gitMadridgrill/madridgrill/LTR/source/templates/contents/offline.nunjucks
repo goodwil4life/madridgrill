@@ -1,0 +1,25 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+        <div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>You're Offline</h3>
+					<h5>Page Not Installed</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+        <div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">If you're not intentionally got into this page then you either lost your internet connection or connecting to this address failed. If you don't have a internet connection then you can still browse the pages you browsed already as offline. So, turn on the internet and browse some pages then go offline and try to browse them again, you are now able to browse Tasty without connection.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Service Worker to the Rescue</h4>
+                <p>The fact that you're seeing this page is because a service worker is running in the background. Among other things, service workers can intercept and modify navigation and resource requests, which makes them a great tool for building offline experiences.</p>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

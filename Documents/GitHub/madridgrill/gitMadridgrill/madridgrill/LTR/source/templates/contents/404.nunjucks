@@ -1,0 +1,11 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="style-404">
+			<div><h1>4o4</h1></div>
+			<div><span>Page's deleted or never exist.</span></div>
+			<div><article>The page you're looking for is not available. However you might get to this page directly, then this page exists of course. However If you enter a non-existent page name in URL then the .htaccess file will redirect you to this page automatically but yor host must support .htaccess files for example Apache.<br><br> <a href="index.html">Go to Home</a></article></div>
+		</div>
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

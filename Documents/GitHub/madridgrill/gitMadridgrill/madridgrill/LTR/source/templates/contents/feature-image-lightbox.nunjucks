@@ -1,0 +1,71 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Image Lightbox</h3>
+					<h5>Full Screen Image</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">The amp-image-lightbox component allows the user to expand an image to fill the viewport.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>The amp-image-lightbox is activated using the <strong>on</strong> action on an <strong>amp-img</strong> element referencing the lightbox element's ID.</p>
+
+                <div class="space-2"></div>
+
+                <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+
+                <amp-img    on="tap:lightbox1"
+                            role="button"
+                            tabindex="0"
+                            layout="responsive"
+                            src="http://placehold.it/331x331"
+                            width="345"
+                            height="345"></amp-img>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Captions</h4>
+                <p>The amp-image-lightbox also can optionally display a caption for the image at the bottom of the viewport. This can either be the contents of the <strong>&lt;figcaption&gt;</strong> element when the image is in the figure tag...</p>
+
+                <div class="space-2"></div>
+
+                <figure>
+                    <amp-img    on="tap:lightbox1"
+                                role="button"
+                                tabindex="0"
+                                src="http://placehold.it/331x331"
+                                width="345"
+                                height="345"></amp-img>
+                    <figcaption>Border Collie.</figcaption>
+                </figure>
+
+				<div class="space-3"></div>
+
+                <p>... or the contents of the element whose ID is specified by the image's <strong>aria-describedby</strong> attribute.</p>
+
+                <div class="space-2"></div>
+
+                <amp-img    on="tap:lightbox1"
+                            role="button"
+                            tabindex="0"
+                            aria-describedby="imageDescription"
+                            src="http://placehold.it/331x331"
+                            width="345"
+                            height="345"></amp-img>
+                <div id="imageDescription">
+                    This is a border collie.
+                </div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

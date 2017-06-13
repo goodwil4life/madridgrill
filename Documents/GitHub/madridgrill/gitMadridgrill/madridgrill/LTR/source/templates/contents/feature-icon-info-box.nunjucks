@@ -1,0 +1,56 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Icon Info Boxes</h3>
+					<h5>Things You'll Love</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="icon-info-box">
+					<i class="fa fa-fighter-jet"></i>
+					<div>
+						<h4>Fish Dishes</h4>
+						<p>Fresh Fishes From The Local Lakes</p>
+					</div>
+				</div><!-- ICON INFO BOX ENDS -->
+			</div><!-- COL-SM-6 ENDS -->
+			<div class="col-sm-6">
+				<div class="icon-info-box">
+					<i class="gastronomy-steak"></i>
+					<div>
+						<h4>Delicious Steaks</h4>
+						<p>1/4 1/2 or 1 Top Quality Part Cooked</p>
+					</div>
+				</div><!-- ICON INFO BOX ENDS -->
+			</div><!-- COL-SM-6 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="icon-info-box">
+					<i class="gastronomy-apple-1"></i>
+					<div>
+						<h4>Fresh Vegetarian</h4>
+						<p>With The Daily Picked Vegetables</p>
+					</div>
+				</div><!-- ICON INFO BOX ENDS -->
+			</div><!-- COL-SM-6 ENDS -->
+			<div class="col-sm-6">
+				<div class="icon-info-box">
+					<i class="gastronomy-doughnut-1"></i>
+					<div>
+						<h4>Tasty Desserts</h4>
+						<p>Chocolate or Syrup Both Awesome</p>
+					</div>
+				</div><!-- ICON INFO BOX ENDS -->
+			</div><!-- COL-SM-6 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div>
+
+	{% include "templates/parts/_footer.nunjucks" %}

@@ -1,0 +1,44 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Lightbox</h3>
+					<h5>Lightboxes Can Contain Anything</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">The amp-lightbox component allows for a “lightbox” or similar experience - where upon user interaction a component expands to fill the viewport, until it is closed again by the user.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>The lighbox is shown when the user taps or clicks on an element with <strong>on</strong> attribute that targets the id of an <strong>amp-lightbox</strong> element.<br><br>To enable closing the lightbox via click or tap use the <strong>on</strong> attribute on one or more elements within the lightbox. In this example the user can click anywhere in the lightbox to close it.<br><br>For showing images in a lightbox, AMP also features the amp-image-lightbox component, which doesn't need the image to specified twice.</p>
+
+                <div class="space-2"></div>
+
+                <button on="tap:my-lightbox"
+                        role="button"
+						class="button primary-bg light-color"
+                        tabindex="0">
+                    Open lightbox
+                </button>
+
+                <amp-lightbox   id="my-lightbox"
+                                layout="nodisplay">
+                    <div    class="lightbox"
+                            on="tap:my-lightbox.close"
+                            role="button"
+                            tabindex="0">
+                        <h3 class="light-color">Thank you for buying the Tasty!<br><br>This lightboxes styling can be changed with CSS.</h3>
+                    </div>
+                </amp-lightbox>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

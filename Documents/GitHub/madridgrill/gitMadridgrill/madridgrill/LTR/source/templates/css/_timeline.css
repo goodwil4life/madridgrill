@@ -1,0 +1,43 @@
+/**---------------------
+          *
+          * TimeLine
+          *
+          *---------------------**/
+        .time-line-item{
+            padding-left: 100px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+
+        .time-line-item:before{
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: #F0F0F0;
+        }
+
+        .time-line-item:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 10px;
+            height: 10px;
+            margin-top: -10px;
+            border-radius: 50%;
+            border: 4px solid #F0F0F0;
+            background-color: #ffffff;
+        }
+
+        .time-line-item amp-img{
+            position: absolute;
+            top: 50%;
+            left: 39px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }

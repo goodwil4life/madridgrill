@@ -1,0 +1,50 @@
+/**---------------------
+          *
+          * Icon Info Box
+          *
+          *---------------------**/
+		.image-info-box{
+			position: relative;
+		}
+
+		.image-info-box .preview{
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 3px;
+			border: 1px solid rgba(0,0,0,.06)
+		}
+
+		.image-info-box amp-img{
+			display: block;
+		}
+
+		.image-info-box .details{
+			margin-left: 75px;
+		}
+
+		.image-info-box h2{
+			line-height: 1;
+			margin: 0 0 5px;
+		}
+
+		.image-info-box p{
+			margin: 0 0 5px;
+			font-size: 1.2rem;
+		}
+
+		.image-info-box .meta a{
+			font-size: 1.1rem;
+			opacity: .54;
+			display: block;
+			float: left;
+		}
+
+		.image-info-box .meta a:last-child{
+			float: right;
+		}
+
+		.image-info-box .meta a:not(:first-child){
+			margin-left: 7px;
+		}

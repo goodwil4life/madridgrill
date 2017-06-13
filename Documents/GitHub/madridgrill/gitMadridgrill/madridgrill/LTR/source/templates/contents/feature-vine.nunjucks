@@ -1,0 +1,44 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Vine</h3>
+					<h5>Vine Video Player</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Embed Vine videos in your AMP HTML files.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>A Vine embed has equal width and height. You can find the <strong>vineid</strong> in the each vine's URL.</p>
+
+                <div class="space-2"></div>
+
+                <amp-vine   width="1"
+                            height="1"
+                            layout=responsive
+                            data-vineid="MdKjXez002d"></amp-vine>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Responsive Layout</h4>
+                <p>Resposive layout works as well. In that case you can use any value for <strong>height</strong> and <strong>width</strong> as long as they are the same.</p>
+
+                <div class="space-2"></div>
+
+                <amp-vine   width="1"
+                            height="1"
+                            layout=responsive
+                            data-vineid="MdKjXez002d"></amp-vine>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

@@ -1,0 +1,96 @@
+/**---------------------
+          *
+          * Table Responsive
+          *
+          *---------------------**/
+		table {
+			border-spacing: 0;
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 1rem;
+			background-color: transparent;
+		}
+
+		td, th { padding: 0; }
+
+		th{ text-align: left; }
+
+		table td,
+		table th {
+			padding: .75rem;
+			line-height: 1.5;
+			vertical-align: top;
+			border-top: 1px solid #eceeef;
+		}
+
+		table thead th {
+			vertical-align: bottom;
+			border-bottom: 2px solid #eceeef;
+		}
+
+		.table-inverse {
+			color: #eceeef;
+			background-color: #373a3c;
+		}
+
+		.table-inverse td,
+		.table-inverse th,
+		.table-inverse thead th {
+			border-right: #55595c;
+		}
+
+		.table-inverse td,
+		.table-inverse th,
+		.table-inverse thead th {
+			border-color: #55595c;
+		}
+
+		.thead-inverse th {
+			color: #fff;
+			background-color: #373a3c;
+		}
+
+		.thead-default th {
+			color: #55595c;
+			background-color: #eceeef;
+		}
+
+		.table-responsive {
+			display: block;
+			width: 100%;
+			min-height: .01%;
+			overflow-x: auto;
+		}
+
+		.table-striped tbody tr:nth-of-type(odd) {
+			background-color: #f9f9f9;
+		}
+
+		.table-bordered td, .table-bordered th {
+			border: 1px solid #eceeef;
+		}
+
+		.table-hover tbody tr:hover {
+			background-color: #f5f5f5;
+		}
+
+		.table-active, .table-active>td, .table-active>th {
+			background-color: #f5f5f5;
+		}
+
+		.table-success, .table-success>td, .table-success>th {
+			background-color: #dff0d8;
+		}
+
+		.table-info, .table-info>td, .table-info>th {
+			background-color: #d9edf7;
+		}
+
+		.table-warning, .table-warning>td, .table-warning>th {
+			background-color: #fcf8e3;
+		}
+
+		.table-danger, .table-danger>td, .table-danger>th {
+			background-color: #f2dede;
+		}

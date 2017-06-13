@@ -1,0 +1,45 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>AMP Image</h3>
+					<h5>Responsive</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">AMP HTML files don't support the normal HTML <strong>img</strong> tag. With <strong>amp-img</strong> AMP provides a powerful replacement.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Usage</h4>
+                <p>A simple responsive image - width and height are used to determine the aspect ratio.</p>
+
+                <div class="space-2"></div>
+
+                <amp-img    src="http://placehold.it/690x388"
+                            width="690"
+                            height="388"
+                            layout="responsive"
+                            alt="an image"></amp-img>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">SRCSET</h4>
+                <p>Use <strong>srcset</strong> to specify different images for varying viewport widths and pixel densities (change the width of your browser windows to test it).</p>
+
+                <div class="space-2"></div>
+
+                <amp-img    srcset="http://placehold.it/690x388 1300w, http://placehold.it/1476x830 1301w"
+                            width="690"
+                            height="388"
+                            layout="responsive"></amp-img>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

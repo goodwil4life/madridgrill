@@ -1,0 +1,8 @@
+/**---------------------
+          *
+          * Grid Gallery with Lightbox
+          *
+          *---------------------**/
+		.lightbox-item-with-caption figcaption{display: none;}
+		.lightbox-item-with-caption amp-img{display: block;}
+		.amp-image-lightbox-caption{padding: 15px}

@@ -1,0 +1,117 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-diamond"></i>
+					<div>
+						<h2 class="primary-color">SERVICES</h2>
+						<h3>What We Offer</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p><amp-img class="pull-right" src="http://placehold.it/340x340" width=170 height=170></amp-img>Interactively administrate enterprise convergence rather than pandemic applications. Distinctively deploy cross-media innovation whereas seamless processes. Seamlessly fashion impactful e-markets via superior leadership. Monotonectally evisculate enabled. Interactively incentivize ubiquitous ideas via client-based growth strategies. Energistically actualize leveraged.</p>
+
+				<div class="space-2"></div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-cogs"></i>
+					<div>
+						<h2 class="primary-color">OUR PROFESSIONAL</h2>
+						<h3>Accordion Content</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<amp-accordion class="accordion">
+					<section expanded>
+						<h4>WordPress Works</h4>
+						<div>Globally reconceptualize parallel sources for extensible human capital. Efficiently fabricate client-based convergence vis-a-vis enabled e-services. Dramatically plagiarize scalable paradigms via exceptional functionalities. Interactively optimize web-enabled.</div>
+					</section>
+					<section>
+						<h4>Static WebSite Works</h4>
+						<div>Globally reconceptualize parallel sources for extensible human capital. Efficiently fabricate client-based convergence vis-a-vis enabled e-services. Dramatically plagiarize scalable paradigms via exceptional functionalities. Interactively optimize web-enabled.</div>
+					</section>
+					<section>
+						<h4>Mobile Applications</h4>
+						<div>Globally reconceptualize parallel sources for extensible human capital. Efficiently fabricate client-based convergence vis-a-vis enabled e-services. Dramatically plagiarize scalable paradigms via exceptional functionalities. Interactively optimize web-enabled.</div>
+					</section>
+					<section>
+						<h4>MacOS Applications</h4>
+						<div>Globally reconceptualize parallel sources for extensible human capital. Efficiently fabricate client-based convergence vis-a-vis enabled e-services. Dramatically plagiarize scalable paradigms via exceptional functionalities. Interactively optimize web-enabled.</div>
+					</section>
+					<section>
+						<h4>Windows Applications</h4>
+						<div>Globally reconceptualize parallel sources for extensible human capital. Efficiently fabricate client-based convergence vis-a-vis enabled e-services. Dramatically plagiarize scalable paradigms via exceptional functionalities. Interactively optimize web-enabled.</div>
+					</section>
+				</amp-accordion>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-with-icon">
+					<i class="fa fa-bar-chart-o"></i>
+					<div>
+						<h2 class="primary-color">OUR SKILLS</h2>
+						<h3>Progress Bars</h3>
+					</div>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="progress-bar">
+					<div class="progress-details clearfix">
+						<h4 class="pull-left margin-0">WordPress</h4>
+						<span class="pull-right">80%</span>
+					</div>
+					<div class="progress-wrap">
+						<div class="progress primary-bg width-80"></div>
+					</div>
+				</div><!-- PROGRESS BAR ENDS -->
+				<div class="progress-bar">
+					<div class="progress-details clearfix">
+						<h4 class="pull-left margin-0">HTML5</h4>
+						<span class="pull-right">90%</span>
+					</div>
+					<div class="progress-wrap">
+						<div class="progress progress-bg-green width-90"></div>
+					</div>
+				</div><!-- PROGRESS BAR ENDS -->
+				<div class="progress-bar">
+					<div class="progress-details clearfix">
+						<h4 class="pull-left margin-0">JavaScript</h4>
+						<span class="pull-right">70%</span>
+					</div>
+					<div class="progress-wrap">
+						<div class="progress progress-bg-yellow width-70"></div>
+					</div>
+				</div><!-- PROGRESS BAR ENDS -->
+				<div class="progress-bar">
+					<div class="progress-details clearfix">
+						<h4 class="pull-left margin-0">CSS3</h4>
+						<span class="pull-right">90%</span>
+					</div>
+					<div class="progress-wrap">
+						<div class="progress progress-bg-red width-90"></div>
+					</div>
+				</div><!-- PROGRESS BAR ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}

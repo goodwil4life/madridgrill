@@ -1,0 +1,442 @@
+<div class="container-fluid">
+		<div class="space-2"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bordered-title">
+					<h3>Responsive Tables</h3>
+					<h5>Scrollable</h5>
+				</div><!-- TITLE ENDS -->
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="minus-margin-top-bottom-15">Tables will be scrollable if it exceeds it's container.</p>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Basic Example</h4>
+				<p>This example is basic and responsive. Make sure you wrap the table with a container has class <strong>table-responsive</strong>.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table class="table-bordered">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+							<tr>
+							<th scope="row">2</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Inverse Table</h4>
+				<p>Almost same example with the above but only inverse coloring.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table class="table-inverse">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+								<th>Table heading</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+							<tr>
+							<th scope="row">2</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+								<td>Table cell</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Table Head Options</h4>
+				<p>Different style of <strong>thead</strong>'s are available.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table>
+						<thead class="thead-inverse">
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table>
+						<thead class="thead-default">
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Striped Table</h4>
+				<p>Stripes on table rows. Every odd row gets a soft dark background.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table class="table-striped">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Bordered Table</h4>
+				<p>Border between every cell and outer table.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table class="table-bordered">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@TwBootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td colspan="2">Larry the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Hoverable Rows</h4>
+				<p>When you touch on a row you will see a soft background under it.</p>
+
+				<div class="space-2"></div>
+
+				<div class="table-responsive">
+					<table class="table-hover">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@TwBootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td colspan="2">Larry the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="space-3"></div>
+
+				<h4 class="margin-0">Contextual Classes</h4>
+				<p>Use contextual classes to color table rows or individual cells.</p>
+
+				<div class="space-2"></div>
+
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>Class</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">
+								<code>.table-active</code>
+							</th>
+							<td>Applies the hover color to a particular row or cell</td>
+						</tr>
+						<tr>
+							<th scope="row">
+								<code>.table-success</code>
+							</th>
+							<td>Indicates a successful or positive action</td>
+						</tr>
+						<tr>
+							<th scope="row">
+								<code>.table-info</code>
+							</th>
+							<td>Indicates a neutral informative change or action</td>
+						</tr>
+						<tr>
+							<th scope="row">
+								<code>.table-warning</code>
+							</th>
+							<td>Indicates a warning that might need attention</td>
+						</tr>
+						<tr>
+							<th scope="row">
+								<code>.table-danger</code>
+							</th>
+							<td>Indicates a dangerous or potentially negative action</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Column heading</th>
+								<th>Column heading</th>
+								<th>Column heading</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="table-active">
+								<th scope="row">1</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr class="table-success">
+								<th scope="row">3</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr class="table-info">
+								<th scope="row">5</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr>
+								<th scope="row">6</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr class="table-warning">
+								<th scope="row">7</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr>
+								<th scope="row">8</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+							<tr class="table-danger">
+								<th scope="row">9</th>
+								<td>Column content</td>
+								<td>Column content</td>
+								<td>Column content</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div><!-- COL-XS-12 ENDS -->
+		</div><!-- ROW ENDS -->
+	</div><!-- CONTAINER-FLUID ENDS -->
+
+	{% include "templates/parts/_footer.nunjucks" %}
