@@ -38,18 +38,14 @@
     <!--*
         *   JavaScripts to Include
         **-->
-    <script async custom-element=amp-install-serviceworker src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
     <script async custom-element=amp-form src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-    <script async custom-element=amp-image-lightbox src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
     <script async custom-element=amp-carousel src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <script async custom-element=amp-sidebar src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script async custom-element=amp-vimeo src="https://cdn.ampproject.org/v0/amp-vimeo-0.1.js"></script>
-    <script async custom-element=amp-accordion src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
-    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async custom-element="amp-iframe"
   src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async  src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 
 
 
@@ -1001,6 +997,9 @@ margin:auto;
       opacity: 1;
       visibility: visible;
     }
+    .legal{
+      margin-left:20px;
+    }
    /**---------------------
           *
           * Amp carousel text example
@@ -1358,6 +1357,10 @@ Menu bar and other features
              <a href="https://www.tripadvisor.com/Restaurant_Review-g187514-d13083436-Reviews-Madrid_Grill-Madrid.html" class="social-ball fa fa-tripadvisor"></a>
 
         </div><!-- SOCIAL ICONS ENDS -->
+        <!--Privacy Policy and Legal Starts -->
+        <p class="legal">
+          <a href="https://madridgrill.com/privacy.html">Privacy</a><br>
+        </p>
         
 
     </amp-sidebar><!-- SIDEBAR ENDS -->
@@ -1366,5 +1369,20 @@ Menu bar and other features
                              data-iframe-src="http://localhost/tasty/LTR/dist/sw.html"
                              layout="nodisplay">
   </amp-install-serviceworker>-->
+  <amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-110485392-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
 </body>
 </html>
